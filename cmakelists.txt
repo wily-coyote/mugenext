@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.20)
+project(mugenext VERSION 0.0.0 DESCRIPTION "Extracts files from Elecbyte data files" LANGUAGES C)
+add_executable(snd2wav src/snd2wav.c)
+add_executable(fnt2pcx src/fnt2pcx.c)
