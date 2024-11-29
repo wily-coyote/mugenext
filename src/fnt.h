@@ -8,7 +8,7 @@ struct Header {
 	unsigned long cbPcx;
 	unsigned long oTxt;
 	unsigned long cbTxt;
-	char comment[40];
+	char comment[32];
 };
 
 typedef struct Header Header;
